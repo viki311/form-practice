@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="input-container">
+                <div>
+                    <label for="input-text">Text Field</label>
+                   <span style="color: red;">*</span>
+                </div>
+                <input type="text" placeholder="Enter Text">
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="input-text">Select Field</label>
+                   <span class="material-icons">error</span>
+                </div>
+                <input type="number" placeholder="select">
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="input-text">Text Field</label>
+                   <span class="material-icons">error</span>
+                </div>
+                <textarea rows="5" type="text" placeholder="Enter Text"></textarea>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="">Text Field with Add-ons</label>
+                    <span style="color:red">*</span>
+                </div>
+
+            </div>
+            <div class="input-group">
+                <label for="">Label</label>
+                <input type="text" placeholder="Input-text">
+                <button class="right-button">Button</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="input-container search-container">
+                <span class="material-icons search-icon">search</span>
+                <input type="text" placeholder="search">
+            </div>
+            <div class="input-container">
+                <div class="input-group cart-button">
+                    <button class="left-button">-</button>
+                    <input class="cart-input" type="text" placeholder="1">
+                    <button class="right-button">+</button>
+                </div>
+            </div>
+            <div style="margin-top:10px">
+            <input type="checkbox" width="16px" height="16px">
+            <label for="">CheckBox</label>
+            </div>
+            <div style="margin-top: 10px;">
+                <input type="radio" width="20px" height="20px">
+                <label for="">RadioButton</label>
+            </div>
+            <div class="switch">
+                <div class="circle"></div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
